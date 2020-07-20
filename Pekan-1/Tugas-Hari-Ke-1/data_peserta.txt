@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama                           : Hary Abdul Rachman  
+2. Email                          : haryabdulrachman@gmail.com 
+3. Sistem Operasi yang digunakan  : Windows 10
+4. Akun GitHub                    : haryabdulrachman 
+5. Akun Telegram                  : @haryabdulrachman
