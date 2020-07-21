@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .hubungikami {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+
+    .hubungikami ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    form {
+      width: 50%;
+    }
+
+    form table {
+      width: 100%;
+    }
+
+    form table tr td:first-child {
+      width: 150px;
+      font-weight: 600;
+      vertical-align: top;
+    }
+
+    form table input {
+      margin-bottom: 5px;
+    }
+
+    form table textarea {
+      font-family: sans-serif;
+      width: 98%;
+      padding: 5px;
+      box-sizing: border-box;
+      outline: none;
+      resize: vertical;
+    }
+
+    .link {
+      margin-top: 20px;
+      text-decoration: none;
+      color: rgb(37, 73, 114);
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Hubungi kami</h1>
+  <div class="hubungikami">
+    <ul>
+      <li><strong>Kantor:</strong> Di jalan belum jadi</li>
+      <li><strong>Nomer Telepon:</strong> 08XX-XXXX-XXXX</li>
+      <li><strong>Email:</strong> email@contoh.com</li>
+    </ul>
+  </div>
+
+  <h1>Kirimkan Pesan</h1>
+  <form action="">
+    <table>
+      <tr>
+        <td>Nama</td>
+        <td><input type="text" placeholder="ex: Bambang sucipto" required style="outline: none; width: 200px;">
+        </td>
+      </tr>
+
+      <tr>
+        <td>Email</td>
+        <td><input type="email" placeholder="ex: bambangsucipto@email.com" required
+            style="outline: none; width: 200px;"></td>
+      </tr>
+
+      <tr>
+        <td>Jenis Kelamin</td>
+        <td>
+          <input type="radio" required name="jeniskelamin" id="lakilaki" required>
+          <label for="lakilaki">Laki-Laki</label>
+          <br>
+          <input type="radio" required name="jeniskelamin" id="perempuan" required>
+          <label for="perempuan">Perempuan</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Pesan Anda</td>
+        <td><textarea placeholder="Isikan pesan anda..." name="pesan" cols="30" rows="10"></textarea>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <input type="submit" value="Kirim">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+  <a href="index.html" class="link">Kembali Ke Index </a>
+
+</body>
+
+</html>
