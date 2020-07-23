@@ -27,7 +27,7 @@ console.log('===> Jawaban Soal ke 2 <===')
 for (var angka = 1; angka <= 20; angka++) {
   if (angka % 2 == 0) {
     console.log(angka + ' - Berkualitas');
-  } else if (angka % 3 == 0) {
+  } else if ((angka % 3 == 0) && (angka % 2 != 0)) {
     console.log(angka + ' - I Love Coding');
   } else {
     console.log(angka + ' - Santai');
