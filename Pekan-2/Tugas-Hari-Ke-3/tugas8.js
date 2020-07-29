@@ -22,33 +22,39 @@
 //   kalimat += kataBaru
 // }
 
-// menambahkanKata(`saya adalah seorang frontend developer`)
+// const kata1 = 'saya';
+// const kata2 = 'adalah';
+// const kata3 = 'seorang';
+// const kata4 = 'frontend';
+// const kata5 = 'developer';
+
+// menambahkanKata(`${kata1} ${kata2} ${kata3} ${kata4} ${kata5}`)
 // console.log(kalimat);
 
 
 // ===> SOAL 3 <====
 
-class Book {
-  constructor(name, totalPage, price) {
-    this.name = name;
-    this.totalPage = totalPage;
-    this.price = price;
-  }
-}
+// class Book {
+//   constructor(name, totalPage, price) {
+//     this.name = name;
+//     this.totalPage = totalPage;
+//     this.price = price;
+//   }
+// }
 
-class Komik extends Book {
-  constructor(name, totalPage, price, isColorful = false) {
-    super(name, totalPage, price)
-    this.isColorful = isColorful;
-  }
-}
+// class Komik extends Book {
+//   constructor(name, totalPage, price, isColorful = false) {
+//     super(name, totalPage, price)
+//     this.isColorful = isColorful;
+//   }
+// }
 
-const Fisika = new Book('Fisika', 200, 1000);
-const Shincan = new Komik('Shincan', 2, 20000, true)
+// const Fisika = new Book('Fisika', 200, 1000);
+// const Shincan = new Komik('Shincan', 2, 20000, true)
 
-console.log(Fisika);
-console.log('')
-console.log(Shincan);
+// console.log(Fisika);
+// console.log('')
+// console.log(Shincan);
 
 
 
